@@ -8,6 +8,15 @@
 	src: url('../../fonts/Comfortaa-Regular.ttf') format(‘truetype’);
 }
 
+#presentation {
+  width: 80%;
+  background-color: #F9D0A3;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
 
 p {
     margin: 0;
@@ -16,15 +25,59 @@ p {
 
 h1 {
   font-family: "Bubbleboddy neue", sans-serif;
+  text-align: center;
+  font-size: 700;
+  font-weight: bold;
+  text-decoration: underline;
+    color: #DA001E;
+    padding-bottom: 2%;
+}
+
+h2 {
+  font-family: "Bubbleboddy neue", sans-serif;
+  text-align: center;
+  font-size: 500;
+  font-weight: bold;
+  text-decoration: underline;
+    color: #DA001E;
+    padding-bottom: 2%;
+  
 }
 
 main {
     width: 100%;
     min-height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     box-sizing: inherit;
     position: relative;
+    color: #151217;
   }
+
+  img {
+    width: 100%;
+    max-height: 200px;
+    /*height: auto;*/
+  }
+
+h5 {
+    font-family: "Bubbleboddy neue", sans-serif;
+    text-decoration: underline;
+    color: #DA001E;
+    font-weight: bold;
+  }
+
+  .card {
+    background-color: #FDD90B;
+  }
+
+  #product {
+    width: 80%;
+  
+  }
+
+
+ 
