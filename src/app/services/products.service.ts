@@ -5,8 +5,8 @@ import { IProduct } from '../product/productinterface';
   providedIn: 'root'
 })
 export class ProductsService {
-  public getProducts(): IProduct [] {
-    return [
+  /*public getProducts(): IProduct [] {*/
+  public productList: IProduct [] = [
       {id: 1, name: 'Chaudron', description:'Chaudron en inox', price:20.99, image:'assets/image/chaudron.jpg'},
       {id: 2, name: 'Glaive', description:'Glaive forgé par un artisan', price:22.5, image: 'assets/image/glaive-bouclier.jpg'},
       {id: 3, name: 'Bouclier', description:'Bouclier en bois incrusté', price:18.99, image: 'assets/image/glaive-bouclier.jpg'},
@@ -15,6 +15,13 @@ export class ProductsService {
       {id: 7, name: 'Menhir', description: 'Menhir à venir chercher sur place', price:20, image: 'assets/image/menhir.jpg'},
     
     ]
+  
+  public getProducts(): IProduct [] {
+    return this.productList;
+  }
+
+  public getProductsById(id: Number): IProduct | undefined {
+    return this.productList.find(product => product.id === id);
   }
   
 
