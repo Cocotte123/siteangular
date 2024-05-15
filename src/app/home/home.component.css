@@ -1,32 +1,24 @@
-@font-face {
-	font-family: "Bubbleboddy neue";
-	src: url('../../fonts/bubbleboddyneue-regular\ trial.ttf') format(‘truetype’);
-}
-
-@font-face {
-	font-family: "Comfortaa";
-	src: url('../../fonts/Comfortaa-Regular.ttf') format(‘truetype’);
-}
 
 #presentation {
   width: 80%;
-  background-color: #F9D0A3;
+  background-color: #FDD90B;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 p {
     margin: 0;
-    font-family: "Comfortaa", sans-serif;
+    font-family: "Comfortaa", normal;
   }
 
 h1 {
-  font-family: "Bubbleboddy neue", sans-serif;
+  font-family: "Bubbleboddy Neue Trial", normal;
+  
   text-align: center;
-  font-size: 700;
+  font-size: 80px;
   font-weight: bold;
   text-decoration: underline;
     color: #DA001E;
@@ -34,9 +26,9 @@ h1 {
 }
 
 h2 {
-  font-family: "Bubbleboddy neue", sans-serif;
+  font-family: "Bubbleboddy Neue Trial", normal;
   text-align: center;
-  font-size: 500;
+  font-size: 50px;
   font-weight: bold;
   text-decoration: underline;
     color: #DA001E;
@@ -51,10 +43,12 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
     box-sizing: inherit;
     position: relative;
     color: #151217;
+    background-color: #F9D0A3;
   }
 
   img {
@@ -64,7 +58,7 @@ main {
   }
 
 h5 {
-    font-family: "Bubbleboddy neue", sans-serif;
+    font-family: "Bubbleboddy Neue Trial", normal;
     text-decoration: underline;
     color: #DA001E;
     font-weight: bold;
@@ -76,8 +70,12 @@ h5 {
 
   #product {
     width: 80%;
-  
+       
   }
+
+
+
+
 
 
  

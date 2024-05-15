@@ -1,10 +1,13 @@
 <main>
-    <section id="presentation">
-        <h1>{{data?.titre}}</h1>
+    <h1>{{data?.titre}}</h1>
+    <div id="presentation">
+        
         <h2>{{data?.titre2}}</h2>
         <p class="text-center">{{data?.texte}}</p>
-    </section>
-    <section>
+    </div>
+    
+    <div class="container" id="product">
+        <h2>Nos produits</h2>
         <form>
             <input type="text" placeholder="Rechercher un article" [(ngModel)]="searchText" [ngModelOptions]="{standalone: true}">
             <p>Prix:</p>
@@ -12,10 +15,7 @@
             <button class="btn btn-warning mx-2" (click)="orderBy = 'desc'">↑</button>
             
         </form>
-    </section>
-    <section class="container" id="product">
-        <h2>Nos produits</h2>
-        <div class="row row-cols-1 row-cols-md-3 gy-5">
+        <div id="card" class="row row-cols-1  row-cols-md-3 gy-5 g-4 ms-5">
             <div class="col-mb-4" *ngFor ="let product of products | filterByName:searchText | sortByPrice: orderBy">
                 <div class="card text-center" style="width: 18rem;">
                     <img class="card-img-top" src="{{product.image}}" alt="{{product.name}}">
@@ -28,5 +28,5 @@
                   </div>
             </div>
         </div>
-    </section>
+    </div>
 </main>

@@ -1,0 +1,13 @@
+footer {
+    background-color: #151217 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    padding: 30px;
+}

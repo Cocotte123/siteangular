@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+	font-family: "Bubbleboddy Neue Trial";
+	src: url('.././src/assets/fonts/bubbleboddyneue-regular\ trial.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: "Comfortaa";
+	src: url('.././src/assets/fonts/Comfortaa-Regular.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
