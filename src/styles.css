@@ -12,3 +12,18 @@
   font-weight: normal;
   font-style: normal;
 }
+
+main {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  box-sizing: inherit;
+  position: relative;
+  color: #151217;
+  background-color: #F9D0A3;
+}

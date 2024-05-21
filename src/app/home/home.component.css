@@ -7,6 +7,7 @@
   padding-top: 5%;
   padding-bottom: 5%;
   margin-bottom: 2%;
+  margin: auto;
 }
 
 p {
@@ -36,22 +37,7 @@ h2 {
   
 }
 
-main {
-    width: 100%;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    box-sizing: inherit;
-    position: relative;
-    color: #151217;
-    background-color: #F9D0A3;
-  }
-
-  img {
+img {
     width: 100%;
     max-height: 200px;
     /*height: auto;*/
@@ -71,6 +57,20 @@ h5 {
   #product {
     width: 80%;
        
+  }
+
+  #tri {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+  }
+
+  h3 {
+    font-family: "Bubbleboddy Neue Trial", normal;
+    text-decoration: underline;
+    color: #DA001E;
+    font-weight: bold;
+    font-size: 20px;
   }
 
 

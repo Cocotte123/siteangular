@@ -1,12 +1,4 @@
-@font-face {
-	font-family: "Bubbleboddy neue";
-	src: url('../../fonts/bubbleboddyneue-regular\ trial.ttf') format(‘truetype’);
-}
 
-@font-face {
-	font-family: "Comfortaa";
-	src: url('../../fonts/Comfortaa-Regular.ttf') format(‘truetype’);
-}
 
 article {
     width: 100%;
@@ -24,7 +16,7 @@ article {
 h2 {
     font-family: "Bubbleboddy neue", sans-serif;
     text-align: center;
-    font-size: 500;
+    font-size: 50px;
     font-weight: bold;
     text-decoration: underline;
       color: #DA001E;
